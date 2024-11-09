@@ -1,0 +1,162 @@
+/* About page container */
+.about-container {
+    padding: 2rem;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fafafa; /* Soft background for better readability */
+    color: #333; /* Text color for a clean, dark look */
+  }
+  
+  /* About header */
+  .about-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .about-header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ff7f50; /* Primary color for emphasis */
+    margin-bottom: 0.5rem;
+  }
+  
+  .about-header p {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  /* About content */
+  .about-content {
+    margin-bottom: 3rem;
+  }
+  
+  .about-content h2 {
+    font-size: 2.2rem;
+    color: #333;
+    margin-bottom: 1.2rem;
+    font-weight: 600;
+  }
+  
+  .about-content p {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    color: #444;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* About team */
+  .about-team {
+    margin-bottom: 3rem;
+  }
+  
+  .about-team h2 {
+    font-size: 2.2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .team-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .team-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 1.5rem;
+    object-fit: cover;
+  }
+  
+  .team-member h3 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #333;
+    margin: 0;
+  }
+  
+  .team-member p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .team-member p:last-of-type {
+    font-style: italic;
+  }
+  
+  /* About values */
+  .about-values h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .about-values ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .about-values ul li {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+    color: #444;
+    padding-left: 1.2rem;
+    position: relative;
+  }
+  
+  .about-values ul li::before {
+    content: '✔'; 
+    position: absolute;
+    left: 0;
+    color: #ff7f50; /* Primary color for the checkmark */
+    font-size: 1.5rem;
+    top: 0;
+  }
+  
+  /* Mobile & Tablet responsive adjustments */
+  @media (max-width: 768px) {
+    .about-container {
+      padding: 1rem;
+    }
+  
+    .about-header h1 {
+      font-size: 2.5rem;
+    }
+  
+    .about-header p {
+      font-size: 1rem;
+    }
+  
+    .about-content h2 {
+      font-size: 1.8rem;
+    }
+  
+    .about-content p {
+      font-size: 1rem;
+    }
+  
+    .team-member {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .team-img {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .team-member h3 {
+      font-size: 1.5rem;
+    }
+  
+    .about-values ul li {
+      font-size: 1.1rem;
+    }
+  }
+  
